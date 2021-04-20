@@ -4028,6 +4028,16 @@ tile{
   tileset = "out/outside_main",
 }
 
+tile{
+  layer = 0,
+  x = 408,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "907",
+  tileset = "out/outside_main",
+}
+
 destination{
   name = "Lpoulailler",
   layer = 0,
