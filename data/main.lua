@@ -6,14 +6,13 @@ local initial_menus = {}
 
 -- This function is called when Solarus starts.
 function sol.main:on_started()
-  sol.video.set_shader(hq4x)
+  sol.video.set_shader(hq3x)
   sol.main.load_settings()
   math.randomseed(os.time())
 
 
   -- Show the initial menus.
   if #initial_menus_config == 0 then
-    sol.video.set_shader(hq4x)
     return
   end
 

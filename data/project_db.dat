@@ -770,8 +770,6 @@ file{ path = "maps/examples/light_world/lumberjacks_house.dat", author = "FFomeg
 file{ path = "maps/examples/light_world/lumberjacks_house.lua", author = "FFomega", license = "GPL v3" }
 file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/first_map.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/first_map.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/inside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "maps/inside_store.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
