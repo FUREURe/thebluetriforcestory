@@ -1,0 +1,29 @@
+text{ key = "options_menu.back", value = "RETOUR" }
+text{ key = "options_menu.language", value = "LANGUAGE" }
+text{ key = "options_menu.music_volume", value = "MUSIQUE" }
+text{ key = "options_menu.sound_volume", value = "SON" }
+text{ key = "options_menu.title", value = "OPTIONS" }
+text{ key = "pause.commands.action", value = "Action" }
+text{ key = "pause.commands.action_to_configure", value = "Appuie pour configurer" }
+text{ key = "pause.commands.commands", value = "Commandes" }
+text{ key = "pause.commands.down", value = "Bas" }
+text{ key = "pause.commands.fullscreen", value = "Plein écran" }
+text{ key = "pause.commands.item", value = "utiliser l'item" }
+text{ key = "pause.commands.joypad", value = "Manette" }
+text{ key = "pause.commands.keyboard", value = "Clavier" }
+text{ key = "pause.commands.left", value = "Gauche" }
+text{ key = "pause.commands.pause", value = "Pause" }
+text{ key = "pause.commands.press_new_key", value = "Appuie sur une touche" }
+text{ key = "pause.commands.right", value = "Droite" }
+text{ key = "pause.commands.save", value = "Sauvegarder" }
+text{ key = "pause.commands.sword", value = "Epée" }
+text{ key = "pause.commands.title", value = "Commandes" }
+text{ key = "pause.commands.up", value = "Haut" }
+text{ key = "savegames_menu.cancel", value = "Annuler" }
+text{ key = "savegames_menu.delete", value = "Effacer" }
+text{ key = "savegames_menu.delete_question", value = "Effacer ?" }
+text{ key = "savegames_menu.load", value = "Charger" }
+text{ key = "savegames_menu.no", value = "Non" }
+text{ key = "savegames_menu.options", value = "OPTIONS" }
+text{ key = "savegames_menu.title", value = "Selection personnage" }
+text{ key = "savegames_menu.yes", value = "Oui" }

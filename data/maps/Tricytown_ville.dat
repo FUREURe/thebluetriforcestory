@@ -1,0 +1,461 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 600,
+  height = 600,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "out/outside_buildings",
+  music = "village",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "6000",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 152,
+  width = 48,
+  height = 8,
+  pattern = "1",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "6157",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6139",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "6138",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6142",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "6141",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6138",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6139",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6141",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6142",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6139",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "6138",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6142",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "6141",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6138",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6139",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6141",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6142",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 128,
+  width = 64,
+  height = 24,
+  pattern = "12691",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "5994",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "5996",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "5995",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "12711",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "12711",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "12711",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "12711",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
+destination{
+  name = "Lpoulailler",
+  layer = 0,
+  x = 280,
+  y = 157,
+  direction = 0,
+  starting_location_mode = "yes",
+}
+
+npc{
+  layer = 0,
+  x = 224,
+  y = 181,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#tricytown.linkle",
+}
+
+teletransporter{
+  layer = 0,
+  x = 232,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "Tricytown/first_map",
+}
+
+destination{
+  name = "Linklehouse",
+  layer = 0,
+  x = 240,
+  y = 181,
+  direction = -1,
+}
+
+enemy{
+  layer = 0,
+  x = 352,
+  y = 157,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  layer = 0,
+  x = 296,
+  y = 149,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "6064",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 104,
+  width = 32,
+  height = 16,
+  pattern = "5976",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "5976",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 104,
+  width = 32,
+  height = 16,
+  pattern = "5976",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "5976",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 128,
+  width = 24,
+  height = 8,
+  pattern = "5977",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 128,
+  width = 24,
+  height = 8,
+  pattern = "5979",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "5978",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "5984",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "5985",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "5986",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "5980",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "6158",
+}
+

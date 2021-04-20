@@ -1,0 +1,35 @@
+dialog{
+  id = "pancarte.poulailler",
+  text = [[
+Poulailler
+]],
+}
+
+dialog{
+  id = "save_quit",
+  text = [[
+                   $? Continue
+                 $? Sauvegarder et quitter
+              $? Quitter sans sauvegarder
+]],
+}
+
+dialog{
+  id = "start.histoire",
+  text = [[
+Cette histoire commence par une matinée tout
+ce qu'il y a de plus normal dans le village de
+Trycitown. Une jeune fille qui ne se doutait de
+rien se leva et comme à son habitude elle
+allait en direction de son poulailler. Son nom ?
+ Je ne pense pas avoir besoin de le donner.
+]],
+}
+
+dialog{
+  id = "tricytown.linkle",
+  text = [[
+Chez Linkle
+]],
+}
+

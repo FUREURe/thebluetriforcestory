@@ -1,0 +1,17 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "tbts",
+  title = "Solarus ALTTP Pack",
+  short_description = "",
+  long_description = [[
+Graphics, musics, sound and scripts that reproduce Zelda A Link to the Past for Solarus.
+This is not a playable quest. Instead, open your own quest and you can import resources from this pack.]],
+  author = "Christopho, Solarus Team",
+  quest_version = "",
+  release_date = "",
+  website = "www.solarus-games.org",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+

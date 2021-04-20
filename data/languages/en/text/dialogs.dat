@@ -1,0 +1,34 @@
+dialog{
+  id = "pancarte.poulailler",
+  text = [[
+Hen house
+]],
+}
+
+dialog{
+  id = "save_quit",
+  text = [[
+                   $? Continue
+                 $? Save and quit
+              $? Quit without saving
+]],
+}
+
+dialog{
+  id = "start.histoire",
+  text = [[
+This story begins with a typical morning in the
+village of Trycitown. A young girl, who had no
+idea, got up and, as usual, went towards her
+henhouse.Her name? I don’t think I need to
+give it away.
+]],
+}
+
+dialog{
+  id = "tricytown.linkle",
+  text = [[
+Linkle's house
+]],
+}
+
