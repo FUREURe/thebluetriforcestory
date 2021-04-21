@@ -200,3 +200,25 @@ teletransporter{
   destination = "_same",
 }
 
+npc{
+  name = "Léane",
+  layer = 0,
+  x = 272,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/young_girl_red",
+  behavior = "dialog#tricytown.Prenium.Léane",
+}
+
+npc{
+  name = "Sazouk",
+  layer = 0,
+  x = 280,
+  y = 205,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/angry_brother",
+  behavior = "dialog#tricytown.Prenium.Sazouk",
+}
+

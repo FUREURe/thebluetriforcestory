@@ -27,6 +27,21 @@ allait en direction de son poulailler. Son nom ?
 }
 
 dialog{
+  id = "tricytown.Prenium.Léane",
+  text = [[
+Je me nomme Léane.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Sazouk",
+  text = [[
+Je me nomme Sazouk et croyez moi un
+mot peut vous faire gagner des rubis.
+]],
+}
+
+dialog{
   id = "tricytown.linkle",
   text = [[
 Chez Linkle
