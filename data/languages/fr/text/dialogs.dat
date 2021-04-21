@@ -1,4 +1,27 @@
 dialog{
+  id = "_shop.arrows5",
+  text = [[
+Lot de 5 flèches bien utile, toi même tu sais.
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Prix : $v rubis
+$? Oui
+$? Non
+]],
+}
+
+dialog{
+  id = "_shop.shield1",
+  text = [[
+Un petit bouclier.
+]],
+}
+
+dialog{
   id = "pancarte.poulailler",
   text = [[
 Poulailler

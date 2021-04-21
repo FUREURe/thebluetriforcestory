@@ -4626,6 +4626,45 @@ destination{
   direction = 3,
 }
 
+shop_treasure{
+  layer = 0,
+  x = 384,
+  y = 200,
+  treasure_name = "consumables/arrow_refill",
+  treasure_variant = 2,
+  price = 10,
+  font = "alttp",
+  dialog = "_shop.arrows5",
+}
+
+shop_treasure{
+  layer = 0,
+  x = 432,
+  y = 200,
+  treasure_name = "equipment/shield",
+  price = 50,
+  dialog = "_shop.shield1",
+}
+
+npc{
+  layer = 0,
+  x = 424,
+  y = 221,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/mini_game_man_blue",
+  behavior = "dialog#",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 149,
+  treasure_name = "consumables/rupee",
+  treasure_variant = 5,
+  sprite = "entities/arrow",
+}
+
 tile{
   layer = 1,
   x = 384,
