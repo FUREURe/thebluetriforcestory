@@ -12,7 +12,10 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
+  local movement = sol.movement.create("random_path")
+  movement:start(Léane)
+  local movement = sol.movement.create("random_path")
+  movement:start(Sazouk)
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

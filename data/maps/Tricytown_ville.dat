@@ -3425,9 +3425,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 40,
   y = 360,
-  width = 8,
+  width = 24,
   height = 16,
   pattern = "1109",
   tileset = "out/outside_main",
@@ -3435,7 +3435,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
+  x = 32,
   y = 360,
   width = 8,
   height = 16,
@@ -4360,16 +4360,6 @@ tile{
 tile{
   layer = 0,
   x = 376,
-  y = 184,
-  width = 96,
-  height = 32,
-  pattern = "10440",
-  tileset = "out/outside_special",
-}
-
-tile{
-  layer = 0,
-  x = 376,
   y = 208,
   width = 8,
   height = 16,
@@ -4634,6 +4624,16 @@ destination{
   x = 64,
   y = 109,
   direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 192,
+  width = 80,
+  height = 24,
+  pattern = "10441",
+  tileset = "out/outside_special",
 }
 
 tile{
