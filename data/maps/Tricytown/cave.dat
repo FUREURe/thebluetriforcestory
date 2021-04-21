@@ -1,0 +1,202 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "prenium",
+  floor = -1,
+  tileset = "dungeon/gray_blue",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 192,
+  pattern = "1090",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 192,
+  pattern = "floor.18-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.2.top-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 80,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "2762",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "2762",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "2762",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "2764",
+}
+
+teletransporter{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "Tricytown/prenium",
+  destination = "_same",
+}
+

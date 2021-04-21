@@ -1,0 +1,319 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 160,
+  height = 160,
+  min_layer = 0,
+  max_layer = 2,
+  world = "prenium",
+  floor = 0,
+  tileset = "dungeon/dark_brown",
+}
+
+tile{
+  layer = 0,
+  x = -64,
+  y = -56,
+  width = 312,
+  height = 296,
+  pattern = "1116",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 128,
+  height = 160,
+  pattern = "floor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 16,
+  width = 24,
+  height = 128,
+  pattern = "wall.4-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 24,
+  height = 128,
+  pattern = "wall.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 136,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 144,
+  height = 24,
+  pattern = "wall.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-6",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 24,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "chimney.1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 72,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 16,
+  height = 24,
+  pattern = "stairs_down.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 72,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "stairs_down.2.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-6b",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-6b",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 64,
+  width = 16,
+  height = 32,
+  pattern = "2764",
+}
+
+destination{
+  name = "preniumentrée",
+  layer = 0,
+  x = 80,
+  y = 141,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "Tricytown_ville",
+  destination = "prenium",
+}
+
+teletransporter{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 16,
+  height = 16,
+  destination_map = "Tricytown/cave",
+  destination = "_same",
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "29",
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "57",
+}
+
+tile{
+  layer = 2,
+  x = 64,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "44",
+}
+
+tile{
+  layer = 2,
+  x = 72,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 2,
+  x = 80,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "48",
+}
+
+tile{
+  layer = 2,
+  x = 88,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "60",
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = -24,
+  width = 8,
+  height = 16,
+  pattern = "52",
+}
+
