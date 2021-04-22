@@ -546,6 +546,16 @@ npc{
   behavior = "dialog#tricytown.Prenium.Sazouk",
 }
 
+destination{
+  name = "destination",
+  layer = 0,
+  x = 272,
+  y = 101,
+  direction = 3,
+  starting_location_mode = "no",
+  default = true,
+}
+
 tile{
   layer = 1,
   x = 24,

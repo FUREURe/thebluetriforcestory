@@ -1,4 +1,4 @@
--- Lua script of map Tricytown.
+-- Lua script of map foret de jade/territoire des blobfish.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -12,8 +12,7 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-   local movement = sol.movement.create("random_path")
-  movement:start(mamie_2)
+
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

@@ -1454,9 +1454,9 @@ dynamic_tile{
   layer = 0,
   x = 504,
   y = 280,
-  pattern = "wall.2-2",
   width = 32,
   height = 24,
+  pattern = "wall.2-2",
 }
 
 dynamic_tile{
@@ -1464,9 +1464,9 @@ dynamic_tile{
   layer = 0,
   x = 504,
   y = 304,
-  pattern = "wall.1-2",
   width = 32,
   height = 24,
+  pattern = "wall.1-2",
 }
 
 stairs{
@@ -1618,9 +1618,9 @@ dynamic_tile{
   layer = 0,
   x = 520,
   y = 392,
-  pattern = "wall.3-2",
   width = 24,
   height = 32,
+  pattern = "wall.3-2",
 }
 
 dynamic_tile{
@@ -1628,9 +1628,9 @@ dynamic_tile{
   layer = 0,
   x = 496,
   y = 392,
-  pattern = "wall.4-2",
   width = 24,
   height = 32,
+  pattern = "wall.4-2",
 }
 
 wall{
@@ -2173,9 +2173,9 @@ dynamic_tile{
   layer = 1,
   x = 512,
   y = 392,
-  pattern = "door_top.blast.4-2",
   width = 8,
   height = 32,
+  pattern = "door_top.blast.4-2",
 }
 
 dynamic_tile{
@@ -2183,9 +2183,9 @@ dynamic_tile{
   layer = 1,
   x = 520,
   y = 392,
-  pattern = "door_top.blast.3-2",
   width = 8,
   height = 32,
+  pattern = "door_top.blast.3-2",
 }
 
 dynamic_tile{
@@ -2193,9 +2193,9 @@ dynamic_tile{
   layer = 1,
   x = 504,
   y = 296,
-  pattern = "door_top.blast.2-2",
   width = 32,
   height = 8,
+  pattern = "door_top.blast.2-2",
 }
 
 dynamic_tile{
@@ -2203,8 +2203,8 @@ dynamic_tile{
   layer = 1,
   x = 504,
   y = 304,
-  pattern = "door_top.blast.1-2",
   width = 32,
   height = 8,
+  pattern = "door_top.blast.1-2",
 }
 
