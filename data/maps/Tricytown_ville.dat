@@ -5060,8 +5060,7 @@ teletransporter{
   y = 496,
   width = 16,
   height = 32,
-  destination_map = "foret de jade_début",
-  destination = "debut",
+  destination_map = "foret_de_jade_debut",
 }
 
 destination{

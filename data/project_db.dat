@@ -12,8 +12,8 @@ map{ id = "examples/light_world/links_yard", description = "Links Yard" }
 map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
 map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
 map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
-map{ id = "foret de jade/territoire des blobfish" }
-map{ id = "foret de jade_début" }
+map{ id = "foret de jade/territoire_des_blobfish" }
+map{ id = "foret_de_jade_debut" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 map{ id = "test_map/dungeon_entrance" }

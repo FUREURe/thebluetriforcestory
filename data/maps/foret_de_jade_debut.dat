@@ -9533,7 +9533,7 @@ teletransporter{
   y = 968,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9543,7 +9543,7 @@ teletransporter{
   y = 728,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9553,7 +9553,7 @@ teletransporter{
   y = 488,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9563,7 +9563,7 @@ teletransporter{
   y = 248,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9574,7 +9574,7 @@ teletransporter{
   width = 16,
   height = 48,
   transition = "immediate",
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9585,7 +9585,7 @@ teletransporter{
   width = 16,
   height = 40,
   transition = "immediate",
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "destination2",
 }
 
@@ -9603,7 +9603,7 @@ teletransporter{
   y = 728,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9613,7 +9613,7 @@ teletransporter{
   y = 16,
   width = 48,
   height = 16,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9623,7 +9623,7 @@ teletransporter{
   y = 8,
   width = 48,
   height = 16,
-  destination_map = "foret de jade/territoire des blobfish",
+  destination_map = "foret de jade/territoire_des_blobfish",
 }
 
 teletransporter{
@@ -9632,7 +9632,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 48,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9642,7 +9642,7 @@ teletransporter{
   y = 136,
   width = 16,
   height = 48,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9652,7 +9652,7 @@ teletransporter{
   y = 1096,
   width = 16,
   height = 48,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9662,7 +9662,7 @@ teletransporter{
   y = 608,
   width = 16,
   height = 48,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9673,7 +9673,7 @@ teletransporter{
   width = 16,
   height = 48,
   transition = "immediate",
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "destination1",
 }
 
@@ -9683,7 +9683,7 @@ teletransporter{
   y = 848,
   width = 16,
   height = 48,
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
@@ -9694,7 +9694,7 @@ teletransporter{
   width = 16,
   height = 48,
   transition = "immediate",
-  destination_map = "foret de jade_début",
+  destination_map = "foret_de_jade_debut",
   destination = "debut",
 }
 
