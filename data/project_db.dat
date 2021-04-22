@@ -12,6 +12,7 @@ map{ id = "examples/light_world/links_yard", description = "Links Yard" }
 map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
 map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
 map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
+map{ id = "foret de jade" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 map{ id = "test_map/dungeon_entrance" }
@@ -747,7 +748,6 @@ file{ path = "items/quest/pendant_of_wisdom.lua", author = "Mehdi Khelifi", lice
 file{ path = "languages", license = "CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/examples", author = "FFomega", license = "GPL v3, CC BY-SA 4.0" }
