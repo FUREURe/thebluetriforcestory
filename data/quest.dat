@@ -6,7 +6,7 @@ quest{
   long_description = [[
 Un jeu a partir d'une histoire crée sur le serveur disocrd tloz fr.]],
   author = "FUREURe",
-  quest_version = "0.0.2",
+  quest_version = "0.0.3",
   release_date = "",
   website = "",
   normal_quest_size = "320x240",

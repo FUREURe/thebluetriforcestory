@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "foret de jade",
   tileset = "out/outside_main",
+  music = "credits",
 }
 
 tile{
@@ -4774,10 +4775,20 @@ destination{
   name = "destination",
   layer = 0,
   x = 72,
-  y = 469,
+  y = 461,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 56,
+  y = 464,
+  width = 32,
+  height = 16,
+  destination_map = "foret de jade_début",
+  destination = "debut",
 }
 
 tile{
