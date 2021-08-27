@@ -556,6 +556,28 @@ destination{
   default = true,
 }
 
+npc{
+  name = "Linkel",
+  layer = 0,
+  x = 192,
+  y = 173,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/lady_red",
+  behavior = "dialog#tricytown.Prenium.Linkel",
+}
+
+npc{
+  name = "Moussoe",
+  layer = 0,
+  x = 56,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/merchant_green",
+  behavior = "dialog#tricytown.Prenium.Moussoe",
+}
+
 tile{
   layer = 1,
   x = 24,

@@ -16,6 +16,8 @@ function map:on_started()
   movement:start(Léane)
   local movement = sol.movement.create("random_path")
   movement:start(Sazouk)
+  local movement = sol.movement.create("random_path")
+  movement:start(Linkel)
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

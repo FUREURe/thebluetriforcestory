@@ -50,9 +50,23 @@ allait en direction de son poulailler. Son nom ?
 }
 
 dialog{
+  id = "tricytown.Prenium.Linkel",
+  text = [[
+Je me nomme Linkel. Et non je ne suis pas Linkle.
+Nz voous trompez pas s'il vous plaît .
+]],
+}
+
+dialog{
   id = "tricytown.Prenium.Léane",
   text = [[
-Je me nomme Léane.
+Je me nomme Léane. Je suis la plus pure ici.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Moussoe",
+  text = [[
 ]],
 }
 
