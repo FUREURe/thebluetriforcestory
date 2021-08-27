@@ -570,8 +570,8 @@ npc{
 npc{
   name = "Moussoe",
   layer = 0,
-  x = 56,
-  y = 109,
+  x = 64,
+  y = 37,
   direction = 3,
   subtype = 1,
   sprite = "npc/merchant_green",
