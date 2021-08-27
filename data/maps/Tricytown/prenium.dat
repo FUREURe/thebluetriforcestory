@@ -254,6 +254,15 @@ teletransporter{
   destination = "_same",
 }
 
+chest{
+  layer = 0,
+  x = 72,
+  y = 37,
+  treasure_name = "inventory/bow",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 2,
   x = 48,

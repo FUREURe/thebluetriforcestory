@@ -58,6 +58,15 @@ Nz voous trompez pas s'il vous plaît .
 }
 
 dialog{
+  id = "tricytown.Prenium.Luww",
+  text = [[
+Je me nomme Luww.
+Je suis la reine Zora d'après mon Roi Moussoe,
+ne suis-je pas magnifique ?
+]],
+}
+
+dialog{
   id = "tricytown.Prenium.Léane",
   text = [[
 Je me nomme Léane. Je suis la plus pure ici.

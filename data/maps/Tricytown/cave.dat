@@ -570,12 +570,23 @@ npc{
 npc{
   name = "Moussoe",
   layer = 0,
-  x = 64,
-  y = 37,
+  x = 96,
+  y = 133,
   direction = 3,
   subtype = 1,
   sprite = "npc/merchant_green",
   behavior = "dialog#tricytown.Prenium.Moussoe",
+}
+
+npc{
+  name = "Luww",
+  layer = 0,
+  x = 64,
+  y = 165,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/light_world/zora_underwater",
+  behavior = "dialog#tricytown.Prenium.Luww",
 }
 
 tile{
@@ -594,15 +605,6 @@ tile{
   width = 24,
   height = 16,
   pattern = "safe.1b",
-}
-
-tile{
-  layer = 1,
-  x = 88,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "cafe_chair.1b",
 }
 
 tile{
