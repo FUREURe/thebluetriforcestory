@@ -258,6 +258,7 @@ sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged m
 sprite{ id = "npc/bird_green", description = "Green bird" }
 sprite{ id = "npc/blacksmith", description = "Blacksmith" }
 sprite{ id = "npc/blind_hideout_man", description = "Man in Blind hideout" }
+sprite{ id = "npc/blobfish" }
 sprite{ id = "npc/broom_grandma", description = "Broom grandma" }
 sprite{ id = "npc/bully", description = "Bully" }
 sprite{ id = "npc/bully_cursed", description = "Cursed Bully" }

@@ -4791,6 +4791,96 @@ teletransporter{
   destination = "debut",
 }
 
+npc{
+  layer = 0,
+  x = 152,
+  y = 229,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 240,
+  y = 389,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 400,
+  y = 221,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 520,
+  y = 157,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 568,
+  y = 421,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 312,
+  y = 85,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 352,
+  y = 85,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 96,
+  y = 461,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
+npc{
+  layer = 0,
+  x = 120,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#",
+}
+
 tile{
   layer = 1,
   x = 56,

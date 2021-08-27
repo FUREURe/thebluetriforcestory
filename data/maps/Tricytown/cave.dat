@@ -589,6 +589,17 @@ npc{
   behavior = "dialog#tricytown.Prenium.Luww",
 }
 
+npc{
+  name = "Bloby",
+  layer = 0,
+  x = 40,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/blobfish",
+  behavior = "dialog#tricytown.Prenium.Bloby",
+}
+
 tile{
   layer = 1,
   x = 24,

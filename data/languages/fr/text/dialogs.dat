@@ -50,6 +50,15 @@ allait en direction de son poulailler. Son nom ?
 }
 
 dialog{
+  id = "tricytown.Prenium.Bloby",
+  text = [[
+Je me nomme Bloby le Blobfish.
+
+Un peu gluant mais adorable.
+]],
+}
+
+dialog{
   id = "tricytown.Prenium.Linkel",
   text = [[
 Je me nomme Linkel. Et non je ne suis pas Linkle.
