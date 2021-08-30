@@ -538,8 +538,8 @@ chest{
   layer = 0,
   x = 224,
   y = 45,
-  treasure_name = "consumables/arrow_refill",
-  treasure_variant = 3,
+  treasure_name = "inventory/bow",
+  treasure_variant = 2,
   sprite = "entities/chest",
 }
 

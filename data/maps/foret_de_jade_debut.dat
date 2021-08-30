@@ -9704,6 +9704,7 @@ enemy{
   y = 1061,
   direction = 0,
   breed = "dark_world/moblin",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9720,6 +9721,8 @@ enemy{
   y = 181,
   direction = 0,
   breed = "soldiers/spear_soldier_red",
+  treasure_name = "consumables/rupee",
+  treasure_variant = 2,
 }
 
 enemy{
@@ -9728,6 +9731,7 @@ enemy{
   y = 845,
   direction = 0,
   breed = "dungeons/helmasaur_red",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9736,6 +9740,7 @@ enemy{
   y = 869,
   direction = 0,
   breed = "dungeons/helmasaur_red",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9744,6 +9749,7 @@ enemy{
   y = 645,
   direction = 0,
   breed = "dungeons/keese",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9752,6 +9758,7 @@ enemy{
   y = 565,
   direction = 0,
   breed = "dungeons/keese",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9776,6 +9783,7 @@ enemy{
   y = 389,
   direction = 0,
   breed = "dark_world/ropa",
+  treasure_name = "consumables/heart",
 }
 
 enemy{
@@ -9786,12 +9794,976 @@ enemy{
   breed = "dark_world/ropa",
 }
 
-enemy{
+destructible{
+  layer = 0,
+  x = 128,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 136,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 488,
+  y = 1037,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 488,
+  y = 925,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 448,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 464,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
   layer = 0,
   x = 480,
+  y = 797,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 448,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 464,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 480,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 136,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 685,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 565,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 565,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 565,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 557,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 557,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 557,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 445,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 445,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 445,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 453,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 453,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 453,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 325,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 325,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 136,
+  y = 325,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 432,
+  y = 317,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 448,
+  y = 317,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 464,
+  y = 317,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 432,
+  y = 205,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 448,
+  y = 205,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 464,
+  y = 205,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 424,
+  y = 77,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 77,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 77,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 85,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 85,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 85,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 213,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 213,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 136,
+  y = 213,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 389,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 405,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 421,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 16,
+  y = 389,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 16,
+  y = 405,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 16,
+  y = 421,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 149,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 165,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 181,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 149,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 165,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 181,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 336,
+  y = 141,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 336,
+  y = 157,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 336,
   y = 173,
-  direction = 0,
-  breed = "bosses/armos_knight",
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 568,
+  y = 157,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 568,
+  y = 173,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 568,
+  y = 189,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 576,
+  y = 397,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 576,
+  y = 413,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 576,
+  y = 429,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 629,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 645,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 661,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 352,
+  y = 621,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 352,
+  y = 637,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 352,
+  y = 653,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 584,
+  y = 629,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 584,
+  y = 645,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 584,
+  y = 661,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 629,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 645,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 661,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 861,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 877,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 32,
+  y = 893,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 861,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 877,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 893,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 861,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 877,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 893,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 592,
+  y = 869,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 592,
+  y = 885,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 592,
+  y = 901,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 600,
+  y = 1109,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 600,
+  y = 1125,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 600,
+  y = 1141,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 368,
+  y = 1101,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 368,
+  y = 1117,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 368,
+  y = 1133,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 1101,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 1117,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 1133,
+  treasure_name = "consumables/arrow_refill",
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
 }
 
 tile{
@@ -25204,8 +26176,8 @@ tile{
 
 pickable{
   layer = 1,
-  x = 512,
-  y = 101,
+  x = 184,
+  y = 109,
   treasure_name = "equipment/book_of_mudora",
 }
 
