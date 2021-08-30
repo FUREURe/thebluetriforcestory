@@ -64,6 +64,7 @@ sprite{ id = "doors/door_d2_weak_wall", description = "Cave door (weak wall)" }
 sprite{ id = "doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "doors/door_d4_weak_wall", description = "House door (weak wall)" }
 sprite{ id = "doors/prison_door", description = "Prison locked door" }
+sprite{ id = "enemies/bosses/DarkLinkle" }
 sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight" }
 sprite{ id = "enemies/bosses/arrghus", description = "Arrghus" }
@@ -518,6 +519,7 @@ enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }
 enemy{ id = "bosses/arrghus", description = "Arrghus" }
 enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
+enemy{ id = "bosses/darklinkle" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }

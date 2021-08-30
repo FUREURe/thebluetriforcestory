@@ -15,6 +15,10 @@ function map:on_started()
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
+ movement = sol.movement.create("target")
+  movement:set_target(hero)
+  movement:set_speed(48)
+  movement:start(DarkLinkle)
 end
 
 -- Event called after the opening transition effect of the map,

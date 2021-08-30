@@ -10766,6 +10766,16 @@ destructible{
   can_be_cut = true,
 }
 
+npc{
+  name = "DarkLinkle",
+  layer = 0,
+  x = 440,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/bosses/DarkLinkle",
+}
+
 tile{
   layer = 1,
   x = 344,
