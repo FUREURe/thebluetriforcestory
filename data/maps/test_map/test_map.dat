@@ -217,6 +217,15 @@ tile{
   pattern = "barrier.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 56,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "ice_solid",
+}
+
 wall{
   layer = 0,
   x = 152,
@@ -231,8 +240,9 @@ destination{
   name = "starting_destination",
   layer = 0,
   x = 160,
-  y = 213,
+  y = 197,
   direction = 1,
+  default = true,
 }
 
 destructible{
@@ -345,10 +355,9 @@ pickable{
 pickable{
   name = "tunic",
   layer = 0,
-  x = 224,
-  y = 141,
+  x = 264,
+  y = 189,
   treasure_name = "equipment/tunic",
-  treasure_variant = 2,
 }
 
 pickable{
@@ -429,7 +438,6 @@ pickable{
   x = 232,
   y = 157,
   treasure_name = "inventory/bow",
-  treasure_variant = 2,
 }
 
 pickable{
@@ -437,6 +445,15 @@ pickable{
   x = 160,
   y = 157,
   treasure_name = "dungeons/big_key",
+}
+
+teletransporter{
+  layer = 0,
+  x = 56,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "test_map/fond vert",
 }
 
 tile{

@@ -600,6 +600,15 @@ npc{
   behavior = "dialog#tricytown.Prenium.Bloby",
 }
 
+teletransporter{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "test_map/test_map",
+}
+
 tile{
   layer = 1,
   x = 24,

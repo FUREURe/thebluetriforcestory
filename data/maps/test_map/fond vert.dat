@@ -1,0 +1,112 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/light_green",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "166",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = -8,
+  width = 320,
+  height = 248,
+  pattern = "998",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = -8,
+  width = 8,
+  height = 248,
+  pattern = "1229",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = -8,
+  width = 8,
+  height = 248,
+  pattern = "1229",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = -8,
+  width = 304,
+  height = 8,
+  pattern = "1229",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 232,
+  width = 304,
+  height = 8,
+  pattern = "1229",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = -8,
+  width = 8,
+  height = 248,
+  pattern = "1229",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 144,
+  y = 117,
+  direction = 2,
+  default = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 136,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "test_map/test_map",
+}
+
+npc{
+  name = "DarkLinkle",
+  layer = 0,
+  x = 184,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/bosses/DarkLinkle",
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 117,
+  direction = 0,
+  speed = 100,
+  allow_attack = false,
+  allow_item = false,
+}
+

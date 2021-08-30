@@ -17,6 +17,7 @@ map{ id = "foret_de_jade_debut" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
 map{ id = "test_map/dungeon_entrance" }
+map{ id = "test_map/fond vert" }
 map{ id = "test_map/test_map", description = "A test map" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
