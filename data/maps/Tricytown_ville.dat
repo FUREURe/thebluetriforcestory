@@ -5114,6 +5114,16 @@ npc{
   sprite = "npc/lady_blue",
 }
 
+npc{
+  name = "midona",
+  layer = 0,
+  x = 272,
+  y = 221,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/midona",
+}
+
 tile{
   layer = 1,
   x = 384,
