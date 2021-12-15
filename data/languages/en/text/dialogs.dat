@@ -1,4 +1,35 @@
 dialog{
+  id = "_shop.arrows5",
+  text = [[
+Lot of 5 arrows very useful, you yourself know.
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Not enough rubies, come back when you have
+enough.
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Price: $v ruby
+$? Yes
+$? No
+]],
+}
+
+dialog{
+  id = "_shop.shield1",
+  text = [[
+A small shield.
+]],
+}
+
+dialog{
   id = "pancarte.poulailler",
   text = [[
 Hen house
@@ -15,13 +46,61 @@ dialog{
 }
 
 dialog{
-  id = "start.histoire",
+  id = "story.main.1",
   text = [[
 This story begins with a typical morning in the
 village of Trycitown. A young girl, who had no
 idea, got up and, as usual, went towards her
 henhouse.Her name? I don’t think I need to
 give it away.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Bloby",
+  text = [[
+My name is Bloby the Blobfish.
+
+A little gooey but adorable.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Linkel",
+  text = [[
+My name is Linkel. And no, I'm not Linkle.
+Please don't be mistaken.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Luww",
+  text = [[
+My name is Luww.
+I am Queen Zora after my King Moussoe,
+am I not beautiful?
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Léane",
+  text = [[
+My name is Léane. I am the purest here.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Moussoe",
+  text = [[
+My name is Moussoe.
+]],
+}
+
+dialog{
+  id = "tricytown.Prenium.Sazouk",
+  text = [[
+My name is Sazouk and believe me one
+word can earn you rubies.
 ]],
 }
 
