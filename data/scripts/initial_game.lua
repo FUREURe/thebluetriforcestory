@@ -21,7 +21,9 @@ function initial_game:initialize_new_savegame(game)
   game:set_max_money(100)
   game:set_ability("lift", 0)
   game:get_item("equipment/tunic"):set_variant(1)  
-  game:get_item("inventory/bow"):set_variant(0)
+  --game:get_item("inventory/bow"):set_variant(1)
+  --game:set_item_assigned(1,"inventory/bow")
+  game:get_item_assigned(1)
   game:get_item("equipment/piece_of_heart_counter"):set_variant(1)
   
   -- default command binding

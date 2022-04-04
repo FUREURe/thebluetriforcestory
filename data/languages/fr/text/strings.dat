@@ -1,6 +1,7 @@
 text{ key = "options_menu.back", value = "RETOUR" }
 text{ key = "options_menu.language", value = "LANGUAGE" }
 text{ key = "options_menu.music_volume", value = "MUSIQUE" }
+text{ key = "options_menu.shader", value = "VISUEL" }
 text{ key = "options_menu.sound_volume", value = "SON" }
 text{ key = "options_menu.title", value = "OPTIONS" }
 text{ key = "pause.commands.action", value = "Action" }

@@ -74,7 +74,7 @@ end
 -- Draw part of inventory containing the equipable items
 local function create_inventory_widget(game)
   local widget = gui_designer:create(176, 144)
-  widget:set_xy(16, 16 - movement_distance)
+  widget:set_xy(16, 34 - movement_distance)
   widget:make_green_frame()
 
   display_items_grid(game, widget, inventory_items_names, "inventory", "menus/items/inventory", inventory_num_columns, 8, 16, 29, 16)
@@ -85,7 +85,7 @@ end
 local function create_quest_widget(game)
 
   local widget = gui_designer:create(112, 144)
-  widget:set_xy(200, 16 - movement_distance)
+  widget:set_xy(200, 34 - movement_distance)
   widget:make_yellow_frame()
   local num_columns = 3
   
@@ -98,7 +98,7 @@ end
 local function create_equipment_widget(game)
 
   local widget = gui_designer:create(112, 64)
-  widget:set_xy(200, 168 - movement_distance)
+  widget:set_xy(200, 176 - movement_distance)
   widget:make_yellow_frame()
   local items_surface = widget:get_surface()
   local num_columns = 3
@@ -112,7 +112,7 @@ end
 local function create_do_widget(game)
 
   local widget = gui_designer:create(176, 64)
-  widget:set_xy(16, 168 - movement_distance)
+  widget:set_xy(16, 176 - movement_distance)
   widget:make_red_frame()
   local num_columns = 5
   

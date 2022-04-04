@@ -14,6 +14,7 @@ local language_index
 -- 1: music volume
 -- 2: sound volume
 -- 3: language
+-- 4: vidéo quality
 -- 4: back
 local cursor_position
 
@@ -25,13 +26,15 @@ local function build_layout()
   layout:make_big_wooden_frame(16, 8, 96, 32)
   layout:make_text(sol.language.get_string("options_menu.title"), 64, 16, "center")
   layout:make_wooden_frame(16, 48, 288, 176)
-  layout:make_text(sol.language.get_string("options_menu.music_volume"), 64, 56)
-  layout:make_image(slider_img, 128, 56)
-  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 104)
-  layout:make_image(slider_img, 128, 104)
-  layout:make_text(sol.language.get_string("options_menu.language"), 64, 152)
-  layout:make_text("< " .. sol.language.get_language_name() .. " >", 288, 152, "right")
-  layout:make_text(sol.language.get_string("options_menu.back"), 64, 200)
+  layout:make_text(sol.language.get_string("options_menu.music_volume"), 64, 58)
+  layout:make_image(slider_img, 128, 58)
+  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 86)
+  layout:make_image(slider_img, 128, 86)
+  layout:make_text(sol.language.get_string("options_menu.language"), 64, 114)
+  layout:make_text("< " .. sol.language.get_language_name() .. " >", 288, 114, "right")
+  layout:make_text(sol.language.get_string("options_menu.shader"), 64, 142)
+  layout:make_text(sol.video.get_mode(), 288, 140, "right")
+  layout:make_text(sol.language.get_string("options_menu.back"), 64, 170)
 end
 
 -- Places the cursor on option 1, 2 or 3,
@@ -39,7 +42,7 @@ end
 local function set_cursor_position(index)
 
   cursor_position = index
-  cursor_img:set_xy(26, 2 + index * 48)
+  cursor_img:set_xy(26, 20 + index * 30)
 end
 
 local function update_music_slider()
@@ -111,7 +114,7 @@ end
 function options_menu:on_started()
 
   build_layout()
-  set_cursor_position(4)  -- Back.
+  set_cursor_position(5)  -- Back.
   update_music_slider()
   update_sound_slider()
 
@@ -126,15 +129,15 @@ function options_menu:on_draw(dst_surface)
 
   layout:draw(dst_surface)
   cursor_img:draw(dst_surface)
-  slider_cursor_img:draw(dst_surface, music_slider_x, 56)
-  slider_cursor_img:draw(dst_surface, sound_slider_x, 104)
+  slider_cursor_img:draw(dst_surface, music_slider_x, 58)
+  slider_cursor_img:draw(dst_surface, sound_slider_x, 86)
 end
 
 function options_menu:on_key_pressed(key)
 
   if key == "down" then
     sol.audio.play_sound("cursor")
-    if cursor_position < 4 then
+    if cursor_position <5 then
       set_cursor_position(cursor_position + 1)
     else
       set_cursor_position(1)
@@ -144,7 +147,7 @@ function options_menu:on_key_pressed(key)
     if cursor_position > 1 then
       set_cursor_position(cursor_position - 1)
     else
-      set_cursor_position(4)
+      set_cursor_position(5)
     end
   elseif key == "left" then
     sol.audio.play_sound("cursor")
@@ -165,9 +168,13 @@ function options_menu:on_key_pressed(key)
       next_language()
     end
   elseif key == "space" then
-    if cursor_position == 4 then
+    if cursor_position == 5 then
       sol.audio.play_sound("pause_open")
       sol.menu.stop(options_menu)
+    end
+     if cursor_position == 4 then
+      sol.video.switch_mode()
+      build_layout()
     end
   end
 
