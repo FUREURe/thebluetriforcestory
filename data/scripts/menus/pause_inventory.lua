@@ -254,7 +254,7 @@ function inventory_manager:new(game)
       move_widgets(function() game:set_paused(false) end)
       handled = true
 
-    elseif command == "item_1" or command == "action" then
+    elseif command == "item_1" then
       -- Assign an item.
       local item = game:get_item("inventory/" .. inventory_items_names[cursor_index + 1])
       if cursor_index ~= item_assigned_index
@@ -267,6 +267,20 @@ function inventory_manager:new(game)
         item_cursor_moving_sprite:set_animation("solid_blinking")
         item_cursor_moving_sprite:set_frame(0)
       end
+    elseif command == "item_2" then
+      -- Assign an item.
+      local item = game:get_item("inventory/" .. inventory_items_names[cursor_index + 1])
+      if cursor_index ~= item_assigned_index
+          and item:has_variant()
+          and item:is_assignable() then
+        sol.audio.play_sound("ok")
+        game:set_item_assigned(2, item)
+        item_assigned_row, item_assigned_column = cursor_row, cursor_column
+        item_assigned_index = cursor_row * inventory_num_rows + cursor_column
+        item_cursor_moving_sprite:set_animation("solid_blinking")
+        item_cursor_moving_sprite:set_frame(0)
+      end
+
       handled = true
 
     elseif command == "right" then

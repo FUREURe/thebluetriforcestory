@@ -1,5 +1,5 @@
 -- Main Lua script of the quest.
-
+require("scripts/multi_events")
 require("scripts/features")
 local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}

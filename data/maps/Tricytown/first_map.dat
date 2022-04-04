@@ -551,6 +551,13 @@ chest{
   sprite = "entities/chest",
 }
 
+pickable{
+  layer = 0,
+  x = 72,
+  y = 53,
+  treasure_name = "equipment/sword",
+}
+
 tile{
   layer = 1,
   x = 144,

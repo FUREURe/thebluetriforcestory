@@ -86,6 +86,12 @@ function commands_manager:new(game)
       command = "item_1",
     },
     {
+      name = "item2",
+      unlocked = true,
+      customizable = true,
+      command = "item_2",
+    },
+    {
       name = "pause",
       unlocked = true,
       customizable = true,

@@ -15,17 +15,25 @@ local hud_config = {
   -- Item assigned to slot 1.
   {
     menu_script = "scripts/hud/magic_meter",
-    x = 6,
-    y = 6,
+    x = 3,
+    y = 12,
     slot = 1,  -- Item slot (1 or 2).
   },
 
   -- Item assigned to slot 1.
   {
     menu_script = "scripts/hud/item",
-    x = 28,
+    x = 5,
     y = 12,
     slot = 1,  -- Item slot (1 or 2).
+  },
+
+  -- Item assigned to slot 1.
+  {
+    menu_script = "scripts/hud/item",
+    x = 5,
+    y = 38,
+    slot = 2,  -- Item slot (1 or 2).
   },
 
   -- Rupee counter.

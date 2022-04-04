@@ -10,6 +10,7 @@ text{ key = "pause.commands.commands", value = "Commandes" }
 text{ key = "pause.commands.down", value = "Bas" }
 text{ key = "pause.commands.fullscreen", value = "Plein écran" }
 text{ key = "pause.commands.item", value = "utiliser l'item" }
+text{ key = "pause.commands.item2", value = "utiliser l'item" }
 text{ key = "pause.commands.joypad", value = "Manette" }
 text{ key = "pause.commands.keyboard", value = "Clavier" }
 text{ key = "pause.commands.left", value = "Gauche" }
