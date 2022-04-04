@@ -28,9 +28,9 @@ local hud_config = {
     slot = 1,  -- Item slot (1 or 2).
   },
 
-  -- Item assigned to slot 1.
+  -- Item assigned to slot 2.
   {
-    menu_script = "scripts/hud/item",
+    menu_script = "scripts/hud/item2",
     x = 5,
     y = 38,
     slot = 2,  -- Item slot (1 or 2).

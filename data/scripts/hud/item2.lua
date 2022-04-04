@@ -2,13 +2,13 @@
 
 local item_icon_builder = {}
 
-local background_img = sol.surface.create("hud/item_icon.png")
+local background_img = sol.surface.create("hud/item_icon2.png")
 
 function item_icon_builder:new(game, config)
 
   local item_icon = {}
 
-  item_icon.slot = 1
+  item_icon.slot = 2
   item_icon.surface = sol.surface.create(22, 22)
   item_icon.item_sprite = nil
   item_icon.item_displayed = nil

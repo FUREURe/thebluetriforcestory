@@ -62,7 +62,6 @@ function sol.main:on_key_pressed(key, modifiers)
     handled = true
   elseif key == "escape" and sol.main.game == nil then
     -- Escape in title screens: stop the program.
-    sol.main.exit()
     handled = true
   end
 
