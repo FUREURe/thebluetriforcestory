@@ -6,6 +6,14 @@ Lot de 5 flèches bien utile, toi même tu sais.
 }
 
 dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Pas assez de rubis, reviens quand tu en aura
+assez.
+]],
+}
+
+dialog{
   id = "_shop.question",
   text = [[
 Prix : $v rubis
@@ -31,14 +39,14 @@ Poulailler
 dialog{
   id = "save_quit",
   text = [[
-                   $? Continue
-                 $? Sauvegarder et quitter
-              $? Quitter sans sauvegarder
+                $? Continue
+            $? Sauvegarder et quitter
+           $? Quitter sans sauvegarder
 ]],
 }
 
 dialog{
-  id = "start.histoire",
+  id = "story.main.1",
   text = [[
 Cette histoire commence par une matinée tout
 ce qu'il y a de plus normal dans le village de
@@ -62,7 +70,7 @@ dialog{
   id = "tricytown.Prenium.Linkel",
   text = [[
 Je me nomme Linkel. Et non je ne suis pas Linkle.
-Nz voous trompez pas s'il vous plaît .
+Ne vous trompez pas s'il vous plaît .
 ]],
 }
 
