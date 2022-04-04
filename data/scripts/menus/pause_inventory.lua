@@ -4,7 +4,7 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local inventory_items_names = {
   -- Names of up to 20 items to show in the inventory.
-  "bow",  -- Will be replaced by the silver one if the player has it.
+  "crossbow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
   "hookshot",
   "bombs",
@@ -31,11 +31,11 @@ local inventory_items_names = {
 }
 
 local main_equipment_names = {
-  "sword", "crossbow", "shield", "tunic", "piece_of_heart_counter"
+  "crossbow", "shield", "tunic", "piece_of_heart_counter"
 }
 
 local secondary_equipment_names = {
-  "glove", "flippers", "book_of_mudora", "bomb_bag", "bow_quiver", "crossbow"
+  "glove", "flippers", "book_of_mudora", "bomb_bag", "bow_quiver"
 }
 
 local quest_items_name = {

@@ -1,4 +1,11 @@
 animation{
+  name = "title",
+  src_image = "menus/solarus_logo/solarus_logo.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 200, frame_height = 32, origin_x = 100, origin_y = 29 },
+  },
+}
+animation{
   name = "subtitle",
   src_image = "menus/solarus_logo/solarus_logo.png",
   directions = {
@@ -18,12 +25,5 @@ animation{
   src_image = "menus/solarus_logo/solarus_logo.png",
   directions = {
     { x = 92, y = 49, frame_width = 39, frame_height = 39, origin_x = -21, origin_y = -8 },
-  },
-}
-animation{
-  name = "title",
-  src_image = "menus/solarus_logo/solarus_logo.png",
-  directions = {
-    { x = 0, y = 0, frame_width = 200, frame_height = 32, origin_x = 100, origin_y = 29 },
   },
 }

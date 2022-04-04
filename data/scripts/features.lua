@@ -10,5 +10,4 @@ require("scripts/menus/pause")
 require("scripts/menus/game_over")
 require("scripts/hud/hud")
 require("scripts/dungeons.lua")
-
 return true

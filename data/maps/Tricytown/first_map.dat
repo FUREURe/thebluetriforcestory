@@ -566,9 +566,9 @@ pickable{
 
 pickable{
   layer = 0,
-  x = 160,
-  y = 261,
-  treasure_name = "inventory/crossbow",
+  x = 136,
+  y = 125,
+  treasure_name = "inventory/fire_rod",
 }
 
 tile{

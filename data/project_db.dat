@@ -231,7 +231,7 @@ sprite{ id = "menus/items/inventory/bow", description = "Bow" }
 sprite{ id = "menus/items/inventory/bug_catching_net", description = "Bug Catching Net" }
 sprite{ id = "menus/items/inventory/cane_of_byrna", description = "Cane Of Byrna" }
 sprite{ id = "menus/items/inventory/cane_of_somaria", description = "Cane of Somaria" }
-sprite{ id = "menus/items/inventory/crossbow" }
+sprite{ id = "menus/items/inventory/crossbow", description = "crossbow" }
 sprite{ id = "menus/items/inventory/ether_medallion", description = "Ether Medallion" }
 sprite{ id = "menus/items/inventory/fire_rod", description = "Fire Rod" }
 sprite{ id = "menus/items/inventory/hammer", description = "Hammer" }
@@ -596,6 +596,7 @@ enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
+entity{ id = "arrow" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }

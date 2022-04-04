@@ -1,6 +1,9 @@
 -- A flame that can hurt enemies.
 -- It is meant to by created by the lamp and the fire rod.
 local fire = ...
+
+require("scripts/meta/enemy")  -- enemy:receive_attack_consequence()
+
 local sprite
 
 local enemies_touched = { }

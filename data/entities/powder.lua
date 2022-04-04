@@ -1,8 +1,10 @@
 -- Some powder that have magical effects.
 -- It is meant to by created by the magic powder item.
 local powder = ...
-local sprite
 
+require("scripts/meta/enemy")  -- enemy:receive_attack_consequence()
+
+local sprite
 local enemies_touched = { }
 
 powder:set_size(8, 8)

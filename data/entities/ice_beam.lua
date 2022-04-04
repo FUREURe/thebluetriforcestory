@@ -1,5 +1,8 @@
 -- An ice beam that can unlight torches and freeze water.
 local ice_beam = ...
+
+require("scripts/meta/enemy")  -- enemy:receive_attack_consequence()
+
 local sprites = {}
 local ice_path_sprite
 
