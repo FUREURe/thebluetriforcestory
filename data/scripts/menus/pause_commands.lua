@@ -124,7 +124,7 @@ function commands_manager:new(game)
     {
       name = "fullscreen",
       unlocked = true,
-      customizable = false,
+      customizable = true,
       key = "F11",
     },
     {

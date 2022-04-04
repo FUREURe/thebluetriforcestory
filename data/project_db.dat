@@ -213,6 +213,7 @@ sprite{ id = "menus/item_cursor", description = "Item cursor" }
 sprite{ id = "menus/items/equipment/bomb_bag", description = "Bomb Bag" }
 sprite{ id = "menus/items/equipment/book_of_mudora", description = "Book of Mudora" }
 sprite{ id = "menus/items/equipment/bow_quiver", description = "Bow Quiver" }
+sprite{ id = "menus/items/equipment/crossbow", description = "crossbow" }
 sprite{ id = "menus/items/equipment/flippers", description = "Flippers" }
 sprite{ id = "menus/items/equipment/glove", description = "Glove" }
 sprite{ id = "menus/items/equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
@@ -230,6 +231,7 @@ sprite{ id = "menus/items/inventory/bow", description = "Bow" }
 sprite{ id = "menus/items/inventory/bug_catching_net", description = "Bug Catching Net" }
 sprite{ id = "menus/items/inventory/cane_of_byrna", description = "Cane Of Byrna" }
 sprite{ id = "menus/items/inventory/cane_of_somaria", description = "Cane of Somaria" }
+sprite{ id = "menus/items/inventory/crossbow" }
 sprite{ id = "menus/items/inventory/ether_medallion", description = "Ether Medallion" }
 sprite{ id = "menus/items/inventory/fire_rod", description = "Fire Rod" }
 sprite{ id = "menus/items/inventory/hammer", description = "Hammer" }
@@ -485,6 +487,7 @@ item{ id = "dungeons/small_key", description = "Small Key" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
 item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
+item{ id = "equipment/crossbow" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
@@ -499,6 +502,7 @@ item{ id = "inventory/bottle_2", description = "Bottle 2" }
 item{ id = "inventory/bottle_3", description = "Bottle 3" }
 item{ id = "inventory/bottle_4", description = "Bottle 4" }
 item{ id = "inventory/bow", description = "Bow (level 1 / level 2)" }
+item{ id = "inventory/crossbow" }
 item{ id = "inventory/fire_rod", description = "Fire Rod" }
 item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }

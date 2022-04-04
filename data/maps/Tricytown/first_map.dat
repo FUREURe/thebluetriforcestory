@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "same",
+  music = "credits",
 }
 
 tile{
@@ -538,7 +538,7 @@ chest{
   layer = 0,
   x = 224,
   y = 45,
-  treasure_name = "inventory/bow",
+  treasure_name = "equipment/crossbow",
   sprite = "entities/chest",
 }
 
@@ -562,6 +562,13 @@ pickable{
   x = 192,
   y = 77,
   treasure_name = "inventory/hammer",
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 261,
+  treasure_name = "inventory/crossbow",
 }
 
 tile{

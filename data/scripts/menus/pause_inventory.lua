@@ -31,11 +31,11 @@ local inventory_items_names = {
 }
 
 local main_equipment_names = {
-  "sword", "shield", "tunic", "piece_of_heart_counter"
+  "sword", "crossbow", "shield", "tunic", "piece_of_heart_counter"
 }
 
 local secondary_equipment_names = {
-  "glove", "flippers", "book_of_mudora", "bomb_bag", "bow_quiver"
+  "glove", "flippers", "book_of_mudora", "bomb_bag", "bow_quiver", "crossbow"
 }
 
 local quest_items_name = {
