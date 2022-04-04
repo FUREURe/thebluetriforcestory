@@ -180,6 +180,7 @@ sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
+sprite{ id = "entities/sidequest/Bague" }
 sprite{ id = "entities/sign_brown", description = "Sign (brown)" }
 sprite{ id = "entities/sign_yellow", description = "Sign (yellow)" }
 sprite{ id = "entities/star", description = "Star" }
@@ -206,6 +207,7 @@ sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
+sprite{ id = "items/sidequest/Bague" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/item_cursor", description = "Item cursor" }
 sprite{ id = "menus/items/equipment/bomb_bag", description = "Bomb Bag" }
@@ -516,6 +518,7 @@ item{ id = "quest/mushroom", description = "Mushroom" }
 item{ id = "quest/pendant_of_courage", description = "Pendant of Courage" }
 item{ id = "quest/pendant_of_power", description = "Pendant of Power" }
 item{ id = "quest/pendant_of_wisdom", description = "Pendant of Wisdom" }
+item{ id = "sidequest/Bague" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }

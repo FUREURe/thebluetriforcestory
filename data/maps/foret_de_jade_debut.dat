@@ -10776,6 +10776,13 @@ npc{
   sprite = "enemies/bosses/DarkLinkle",
 }
 
+pickable{
+  layer = 0,
+  x = 192,
+  y = 1125,
+  treasure_name = "sidequest/Bague",
+}
+
 tile{
   layer = 1,
   x = 344,
