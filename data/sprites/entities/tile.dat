@@ -1,0 +1,22 @@
+animation{
+  name = "flying",
+  src_image = "entities/tile.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+    { x = 0, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+    { x = 0, y = 16, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+    { x = 0, y = 24, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+  },
+}
+animation{
+  name = "reached_obstacle",
+  src_image = "entities/tile.png",
+  frame_delay = 50,
+  frame_to_loop_on = 7,
+  directions = {
+    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 0, origin_y = 4, num_frames = 8 },
+    { x = 8, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 8, num_frames = 8 },
+    { x = 8, y = 16, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 4, num_frames = 8 },
+    { x = 8, y = 24, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 0, num_frames = 8 },
+  },
+}

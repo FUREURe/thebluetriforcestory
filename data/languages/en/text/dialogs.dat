@@ -111,3 +111,13 @@ Linkle's house
 ]],
 }
 
+dialog{
+  id = "tricytown.linkle.cocotinette1",
+  text = [[
+Cot cotcot coôot, cooot ? cooôt côt ?
+
+(Hello mistress, how are you today ? 
+Not too hard to wake up?)
+]],
+}
+

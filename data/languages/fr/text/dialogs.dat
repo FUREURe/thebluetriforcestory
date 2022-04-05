@@ -112,3 +112,13 @@ Chez Linkle
 ]],
 }
 
+dialog{
+  id = "tricytown.linkle.cocotinette1",
+  text = [[
+Cot cotcot coôot, cooot ? cooôt côt ?
+
+(Bonjour maîtresse, comment allez vous
+aujourd'hui ? Pas trop dur le reveil ?)
+]],
+}
+

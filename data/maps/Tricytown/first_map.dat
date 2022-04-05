@@ -477,14 +477,6 @@ dynamic_tile{
   pattern = "cafe_chair.2a",
 }
 
-enemy{
-  layer = 0,
-  x = 192,
-  y = 165,
-  direction = 0,
-  breed = "light_world/chicken",
-}
-
 destructible{
   layer = 0,
   x = 64,
@@ -569,6 +561,23 @@ pickable{
   x = 136,
   y = 125,
   treasure_name = "inventory/fire_rod",
+}
+
+npc{
+  name = "Cocotinette",
+  layer = 0,
+  x = 112,
+  y = 69,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/light_world/chicken",
+}
+
+pickable{
+  layer = 0,
+  x = 176,
+  y = 149,
+  treasure_name = "inventory/ice_rod",
 }
 
 tile{

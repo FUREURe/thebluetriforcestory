@@ -1,6 +1,6 @@
 -- Arrow shot by the bow.
 -- Replaces the built-in one to allow silver arrows.
-
+require("scripts/meta/enemy")
 local arrow = ...
 local game = arrow:get_game()
 local map = arrow:get_map()
@@ -17,10 +17,10 @@ local enemies_touched = {}
 local entity_reached
 local entity_reached_dxy
 local flying
-
+sprite = arrow:create_sprite("entities/tile")
 function arrow:on_created()
 
-  local direction = arrow:get_direction()
+  --local direction = arrow:get_direction()
   local horizontal = direction % 2 == 0
   if horizontal then
     arrow:set_size(16, 8)
@@ -120,7 +120,7 @@ arrow:add_collision_test("sprite", function(arrow, entity)
       return
     end
     enemies_touched[enemy] = true
-    local reaction = enemy:get_arrow_reaction(enemy_sprite)
+    local reaction = enemy:get_fire_reaction(enemy_sprite)
     enemy:receive_attack_consequence("arrow", reaction)
     attach_to_entity(enemy)
   end

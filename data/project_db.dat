@@ -186,6 +186,7 @@ sprite{ id = "entities/sign_yellow", description = "Sign (yellow)" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
+sprite{ id = "entities/tile", description = "entities/tile" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
@@ -502,7 +503,7 @@ item{ id = "inventory/bottle_2", description = "Bottle 2" }
 item{ id = "inventory/bottle_3", description = "Bottle 3" }
 item{ id = "inventory/bottle_4", description = "Bottle 4" }
 item{ id = "inventory/bow", description = "Bow (level 1 / level 2)" }
-item{ id = "inventory/crossbow" }
+item{ id = "inventory/crossbow", description = "inventory/crossbow" }
 item{ id = "inventory/fire_rod", description = "Fire Rod" }
 item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
@@ -597,11 +598,12 @@ enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
-entity{ id = "arrow" }
+entity{ id = "bague" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "powder", description = "Powder" }
+entity{ id = "tile" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }

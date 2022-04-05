@@ -20,5 +20,13 @@ end
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
+local movement = sol.movement.create("random_path")
+movement:start(Cocotinette)
+Cocotinette:set_traversable()
 
+end
+
+function Cocotinette:on_interaction()
+  game:save()
+  game:start_dialog("tricytown.linkle.cocotinette1")
 end
