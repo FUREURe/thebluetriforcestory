@@ -4,6 +4,9 @@
 local arrow = ...
 local game = arrow:get_game()
 local map = arrow:get_map()
+local arrow = ...
+local game = arrow:get_game()
+local map = arrow:get_map()
 local hero = map:get_hero()
 local direction = hero:get_direction()
 local bow = game:get_item("inventory/crossbow")
@@ -14,7 +17,6 @@ local enemies_touched = {}
 local entity_reached
 local entity_reached_dxy
 local flying
-local damage = 3
 
 function arrow:on_created()
 
@@ -53,7 +55,7 @@ arrow.apply_cliffs = true
 -- Triggers the animation and sound of the arrow reaching something
 -- and removes the arrow after some delay.
 local function attach_to_obstacle()
-  local sprite
+
   flying = false
   sprite:set_animation("reached_obstacle")
   sol.audio.play_sound("arrow_hit")
@@ -94,6 +96,7 @@ local function attach_to_entity(entity)
       if entity_reached:get_life() <= 0 and
           enemy_sprite ~= nil and
           enemy_sprite:get_animation() ~= "hurt" then
+        -- Dying animation of an enemy: don't keep the arrow.
         arrow:remove()
         return false
       end
@@ -119,7 +122,6 @@ arrow:add_collision_test("sprite", function(arrow, entity)
     enemies_touched[enemy] = true
     local reaction = enemy:get_arrow_reaction(enemy_sprite)
     enemy:receive_attack_consequence("arrow", reaction)
-    enemy:hurt(damage) -- TODO: change this part.
     attach_to_entity(enemy)
   end
 end)
@@ -182,9 +184,7 @@ function arrow:go()
   movement:set_speed(192)
   movement:set_angle(angle)
   movement:set_smooth(false)
-  local width, height = map:get_size()
-  local dist = math.max(width, height) + 24
-  movement:set_max_distance(dist)
+  movement:set_max_distance(500)
   movement:start(arrow)
   flying = true
 end
