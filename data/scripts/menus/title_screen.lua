@@ -86,8 +86,8 @@ function title_screen:on_draw(dst_surface)
   end
 
   -- Triforce.
-  local triforce_sprite_x = (dst_w - self.triforce_sprite_w) / 2
-  local triforce_sprite_y = (dst_h - self.triforce_sprite_h) / 2
+  local triforce_sprite_x = (dst_w - self.triforce_sprite_w) / 2 + 25
+  local triforce_sprite_y = (dst_h - self.triforce_sprite_h) / 2 - 8
   self.triforce_sprite:draw(dst_surface, triforce_sprite_x, triforce_sprite_y)    
 
   -- Zelda.
