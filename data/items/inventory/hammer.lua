@@ -1,6 +1,8 @@
 local item = ...
 local game = item:get_game()
 
+require("scripts/meta/enemy")  -- enemy:receive_attack_consequence()
+
 function item:on_created()
   item:set_savegame_variable("possession_hammer")
   item:set_assignable(true)

@@ -6,7 +6,5 @@ function item:on_created()
 end
 
 function item:on_variant_changed(variant)
-  -- The possession state of the flippers determines the built-in ability "swim".
-  self:get_game():set_ability("sword", variant)
 end
 

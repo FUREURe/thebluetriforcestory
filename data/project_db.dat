@@ -511,6 +511,7 @@ item{ id = "inventory/lantern", description = "Lantern" }
 item{ id = "inventory/magic_mirror", description = "Magic Mirror" }
 item{ id = "inventory/magic_powder", description = "Magic Powder" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
+item{ id = "inventory/test" }
 item{ id = "quest/crystal_1", description = "Crystal 1" }
 item{ id = "quest/crystal_2", description = "Crystal 2" }
 item{ id = "quest/crystal_3", description = "Crystal 3" }
