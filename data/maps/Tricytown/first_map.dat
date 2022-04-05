@@ -571,6 +571,17 @@ pickable{
   treasure_name = "inventory/fire_rod",
 }
 
+custom_entity{
+  layer = 0,
+  x = 144,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/arrow",
+  model = "fire",
+}
+
 tile{
   layer = 1,
   x = 144,
