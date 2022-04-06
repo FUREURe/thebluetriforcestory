@@ -17,7 +17,7 @@ local enemies_touched = {}
 local entity_reached
 local entity_reached_dxy
 local flying
-sprite = arrow:create_sprite("entities/tile")
+sprite = arrow:create_sprite("entities/arrow")
 function arrow:on_created()
 
   --local direction = arrow:get_direction()

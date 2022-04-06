@@ -11,7 +11,7 @@ local title_screen = {}
 
 -- Called when the menu is started.
 function title_screen:on_started()
-  sol.audio.play_music("castle")
+  sol.audio.play_music("title_screen")
   -- Keep trace of the current step.
   self.step = 0
   self.finished = false
