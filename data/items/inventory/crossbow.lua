@@ -36,11 +36,10 @@ function item:on_using()
    arrow:set_direction(di)
    arrow_movement:start(arrow)
     shoot = false
-    else
-    --sol.timer.start(5,function() 
-      --sound_timer = nil 
-      --end)
-    shoot = true
+    sol.timer.start(500,function() 
+      sound_timer = nil 
+      shoot = true
+      end)
     end
   item:set_finished()
 end

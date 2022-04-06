@@ -7,11 +7,12 @@ local layout
 local savegames_surfaces = {}
 local games = {}
 local hearts_img = sol.surface.create("hud/hearts.png")
-local cursor_img = sol.surface.create("menus/link_cursor.png")
+local cursor_img = sol.surface.create("menus/fairy_cursor.png")
 local fairy_img = sol.surface.create("menus/fairy_cursor.png")
 local cursor_position = 1
 local show_savegame_action_box
 local show_confirm_delete_box
+require("scripts/menus/initial_menus_config")
 
 local function get_savegame_file_name(index)
 
@@ -120,7 +121,7 @@ end
 
 function savegames_menu:on_started()
 
-  --sol.audio.play_music("selection")
+  sol.audio.play_music("great_fairy")
 
   build_layout()
   read_savegames()
@@ -159,6 +160,10 @@ function savegames_menu:on_key_pressed(key)
       set_cursor_position(4)
     end
     sol.audio.play_sound("cursor")
+    handled = true
+  elseif key == "c" then
+    sol.audio.play_sound("pause_closed")
+    sol.main.load_file("scripts/menus/title_screen")
     handled = true
   elseif key == "space" then
     if cursor_position <= 3 then

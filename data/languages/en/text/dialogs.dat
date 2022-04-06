@@ -39,9 +39,10 @@ Hen house
 dialog{
   id = "save_quit",
   text = [[
-                   $? Continue
-                 $? Save and quit
-              $? Quit without saving
+Can you save ?
+$?   Continue
+$?   Save and quit
+$?   Quit without saving
 ]],
 }
 

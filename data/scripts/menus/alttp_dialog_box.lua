@@ -44,7 +44,7 @@ local function create_dialog_box(game)
     -- Dialog box properties.
     dialog = nil,                -- Dialog being displayed or nil.
     first = true,                -- Whether this is the first dialog of a sequence.
-    style = nil,                 -- "box" or "empty".
+    style = "box",                 -- "box" or "empty".
     position = "bottom",         -- "auto", "top", "bottom" or an x,y table.
     skip_mode = nil,             -- "none", "current", "all" or "unchanged".
     info = nil,                  -- Parameter passed to start_dialog().

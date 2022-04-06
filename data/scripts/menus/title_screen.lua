@@ -11,6 +11,7 @@ local title_screen = {}
 
 -- Called when the menu is started.
 function title_screen:on_started()
+  sol.audio.play_music("castle")
   -- Keep trace of the current step.
   self.step = 0
   self.finished = false
@@ -197,6 +198,7 @@ function title_screen:step_3()
   sword_movement:set_speed(speed)
   sword_movement:set_target(logo_sword_img_x, logo_sword_img_y)
   sword_movement:start(self.logo_sword_img, function()
+     sol.audio.play_sound("door_unlocked")
     self:step_4()
   end)
 

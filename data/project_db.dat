@@ -603,7 +603,7 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "powder", description = "Powder" }
-entity{ id = "tile" }
+entity{ id = "tile", description = "carreaux crossbow" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }

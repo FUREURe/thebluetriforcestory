@@ -15,7 +15,7 @@ local language_index
 -- 2: sound volume
 -- 3: language
 -- 4: vidéo quality
--- 4: back
+-- 5: back
 local cursor_position
 
 local function build_layout()
