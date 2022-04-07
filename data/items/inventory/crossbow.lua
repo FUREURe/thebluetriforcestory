@@ -27,9 +27,8 @@ function item:on_using()
     local hero = map:get_hero()
     local di = hero:get_direction()
     local x, y, layer = hero:get_center_position()
-    hero:unfreeze()
     hero:start_state(state)
-    if shoot == true then
+    --if shoot == true then
       local arrow = map:create_custom_entity({
         model = "tile",
         x = x,
@@ -48,12 +47,6 @@ function item:on_using()
       sol.timer.start(300,function()
        hero:unfreeze()
        end)
-    shoot = false
-    sol.timer.start(500,function() 
-      sound_timer = nil 
-      shoot = true
-      hero:unfreeze()
-      end)
     end
 
 end
