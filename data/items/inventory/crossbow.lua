@@ -28,7 +28,7 @@ function item:on_using()
     local di = hero:get_direction()
     local x, y, layer = hero:get_center_position()
     hero:start_state(state)
-    --if shoot == true then
+    if shoot == true then
       local arrow = map:create_custom_entity({
         model = "tile",
         x = x,
