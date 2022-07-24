@@ -17270,10 +17270,10 @@ dynamic_tile{
   layer = 2,
   x = 0,
   y = 0,
-  pattern = "10251",
-  tileset = "out/outside_special",
   width = 1024,
   height = 1024,
+  pattern = "10251",
+  tileset = "out/outside_special",
 }
 
 dynamic_tile{
@@ -17281,8 +17281,8 @@ dynamic_tile{
   layer = 2,
   x = 0,
   y = 0,
-  pattern = "12372",
   width = 1024,
   height = 1024,
+  pattern = "12372",
 }
 
