@@ -28,3 +28,15 @@ end
 function save:on_interaction()
   game:save()
 end
+
+--etape 1 story
+if game:get_value("story")==0 then
+  function mamie_2:on_interaction()
+    game:start_dialog("tricytown.mamie.story1")
+  end
+  function story1:on_activated()
+    game:start_dialog("story.main.1")
+    game:set_value("story","1")
+  end
+end
+--fin etape 1 story

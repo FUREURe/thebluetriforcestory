@@ -1,5 +1,6 @@
 map{ id = "Tricytown/cave", description = "cave prenium" }
 map{ id = "Tricytown/first_map", description = "Tricytown/first_map" }
+map{ id = "Tricytown/mamie" }
 map{ id = "Tricytown/prenium" }
 map{ id = "Tricytown_ville" }
 map{ id = "examples/light_world/eastern_palace", description = "Eastern Palace" }

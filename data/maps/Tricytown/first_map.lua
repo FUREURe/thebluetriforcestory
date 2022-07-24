@@ -12,7 +12,9 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-  game:start_dialog('story.main.1')
+  if game:get_value("story")==0 then
+  game:start_dialog("story.main.0")
+  end
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

@@ -6,7 +6,7 @@ local shoot
 local state = sol.state.create(cross_state)
 state:set_can_control_movement(true)
 state:set_can_control_direction(true)
-
+state:set_can_use_teletransporter(false)
 
 
 
@@ -27,8 +27,8 @@ function item:on_using()
     local hero = map:get_hero()
     local di = hero:get_direction()
     local x, y, layer = hero:get_center_position()
-    hero:start_state(state)
-    --if shoot == true then
+    hero:start_state(state)  
+    if shoot == true then
       local arrow = map:create_custom_entity({
         model = "tile",
         x = x,
@@ -44,7 +44,9 @@ function item:on_using()
    arrow:set_direction(di)
    arrow_movement:start(arrow)
       hero:set_animation("bow")
+      shoot = false
       sol.timer.start(300,function()
+        shoot = true
        hero:unfreeze()
        end)
     end
