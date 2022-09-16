@@ -257,7 +257,10 @@ sprite{ id = "menus/items/quest/mushroom", description = "Mushroom" }
 sprite{ id = "menus/items/quest/pendant_of_courage", description = "Pendant of Courage" }
 sprite{ id = "menus/items/quest/pendant_of_power", description = "Pendant of Power" }
 sprite{ id = "menus/items/quest/pendant_of_wisdom", description = "Pendant of Wisdom" }
+sprite{ id = "menus/solarus_logo/arrow", description = "menus/solarus_logo/arrow" }
+sprite{ id = "menus/solarus_logo/options_cursor", description = "menus/solarus_logo/options_cursor" }
 sprite{ id = "menus/solarus_logo/solarus_logo", description = "Solarus logo" }
+sprite{ id = "menus/solarus_logo/team_logo", description = "menus/solarus_logo/team_logo" }
 sprite{ id = "menus/title_screen/press_start", description = "Press start" }
 sprite{ id = "menus/title_screen/small_shine", description = "Small shine" }
 sprite{ id = "menus/title_screen/triforce", description = "Triforce" }

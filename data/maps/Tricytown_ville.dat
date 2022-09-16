@@ -4884,21 +4884,6 @@ tile{
   tileset = "out/outside_main",
 }
 
-tile{
-  layer = 0,
-  x = 480,
-  y = 112,
-  properties = {
-    {
-      key = "story",
-      value = "1",
-    },
-  },
-  width = 16,
-  height = 16,
-  pattern = "6324",
-}
-
 destination{
   name = "Lpoulailler",
   layer = 0,
@@ -5152,7 +5137,7 @@ npc{
   layer = 0,
   x = 424,
   y = 285,
-  direction = 3,
+  direction = -1,
   subtype = 0,
 }
 
@@ -5491,7 +5476,7 @@ tile{
 tile{
   layer = 1,
   x = 400,
-  y = 256,
+  y = 240,
   width = 32,
   height = 24,
   pattern = "6130",

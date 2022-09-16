@@ -24,11 +24,91 @@ end
 function map:on_opening_transition_finished()
 
 end
-
+--statue de sauvegarde
 function save:on_interaction()
-  game:save()
+  game:start_dialog("save_quit", function(answer)
+          if answer == 1 then
+            -- Continue.
+            sol.audio.play_sound("danger")
+          elseif answer == 2 then
+            -- Save and quit.
+            sol.audio.play_sound("danger")
+            game:save()
+            sol.main.reset()
+          elseif answer == 3 then
+            -- Quit without saving.
+            sol.audio.play_sound("danger")
+            sol.main.reset()
+            elseif answer == 4 then
+              -- Save and continue.
+              sol.audio.play_sound("danger")
+              game:save()
+          end
+        end)
 end
-
+function save_2:on_interaction()
+  game:start_dialog("save_quit", function(answer)
+          if answer == 1 then
+            -- Continue.
+            sol.audio.play_sound("danger")
+          elseif answer == 2 then
+            -- Save and quit.
+            sol.audio.play_sound("danger")
+            game:save()
+            sol.main.reset()
+          elseif answer == 3 then
+            -- Quit without saving.
+            sol.audio.play_sound("danger")
+            sol.main.reset()
+            elseif answer == 4 then
+              -- Save and continue.
+              sol.audio.play_sound("danger")
+              game:save()
+          end
+        end)
+end
+function save_3:on_interaction()
+  game:start_dialog("save_quit", function(answer)
+          if answer == 1 then
+            -- Continue.
+            sol.audio.play_sound("danger")
+          elseif answer == 2 then
+            -- Save and quit.
+            sol.audio.play_sound("danger")
+            game:save()
+            sol.main.reset()
+          elseif answer == 3 then
+            -- Quit without saving.
+            sol.audio.play_sound("danger")
+            sol.main.reset()
+            elseif answer == 4 then
+              -- Save and continue.
+              sol.audio.play_sound("danger")
+              game:save()
+          end
+        end)
+end
+function save_4:on_interaction()
+  game:start_dialog("save_quit", function(answer)
+          if answer == 1 then
+            -- Continue.
+            sol.audio.play_sound("danger")
+          elseif answer == 2 then
+            -- Save and quit.
+            sol.audio.play_sound("danger")
+            game:save()
+            sol.main.reset()
+          elseif answer == 3 then
+            -- Quit without saving.
+            sol.audio.play_sound("danger")
+            sol.main.reset()
+            elseif answer == 4 then
+              -- Save and continue.
+              sol.audio.play_sound("danger")
+              game:save()
+          end
+        end)
+end
 --etape 1 story
 if game:get_value("story")==0 then
   function mamie_2:on_interaction()
