@@ -39,10 +39,10 @@ Poulailler
 dialog{
   id = "save_quit",
   text = [[
-Voulez vous sauvegarder ?
 $?   Continue
 $?   Sauvegarder et quitter
 $?   Quitter sans sauvegarder
+$?   Sauvegarder et continuer
 ]],
 }
 

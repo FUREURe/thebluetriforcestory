@@ -4884,6 +4884,21 @@ tile{
   tileset = "out/outside_main",
 }
 
+tile{
+  layer = 0,
+  x = 480,
+  y = 112,
+  properties = {
+    {
+      key = "story",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "6324",
+}
+
 destination{
   name = "Lpoulailler",
   layer = 0,

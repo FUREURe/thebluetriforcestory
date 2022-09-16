@@ -39,21 +39,28 @@ Hen house
 dialog{
   id = "save_quit",
   text = [[
-Can you save ?
 $?   Continue
 $?   Save and quit
 $?   Quit without saving
+$?   Save and continue
 ]],
 }
 
 dialog{
-  id = "story.main.1",
+  id = "story.main.0",
   text = [[
 This story begins with a typical morning in the
 village of Trycitown. A young girl, who had no
 idea, got up and, as usual, went towards her
 henhouse.Her name? I don’t think I need to
 give it away.
+]],
+}
+
+dialog{
+  id = "story.main.1",
+  text = [[
+Help !!! Wolfs attack my cucoos !
 ]],
 }
 
@@ -119,6 +126,20 @@ Cot cotcot coôot, cooot ? cooôt côt ?
 
 (Hello mistress, how are you today ? 
 Not too hard to wake up?)
+]],
+}
+
+dialog{
+  id = "tricytown.mamie",
+  text = [[
+]],
+}
+
+dialog{
+  id = "tricytown.mamie.story1",
+  text = [[
+Please help me...
+It happens inside.
 ]],
 }
 

@@ -643,6 +643,66 @@ tile{
   tileset = "out/outside_buildings",
 }
 
+tile{
+  layer = 0,
+  x = 56,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "89",
+  tileset = "out/outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "91",
+  tileset = "out/outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "93",
+  tileset = "out/outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "88",
+  tileset = "out/outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "91",
+  tileset = "out/outside_main",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "98",
+  tileset = "out/outside_main",
+}
+
 wall{
   layer = 0,
   x = 32,

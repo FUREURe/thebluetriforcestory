@@ -32,9 +32,11 @@ end
 --etape 1 story
 if game:get_value("story")==0 then
   function mamie_2:on_interaction()
+    --pnj mamie
     game:start_dialog("tricytown.mamie.story1")
   end
   function story1:on_activated()
+    --capteur story1
     game:start_dialog("story.main.1")
     game:set_value("story","1")
   end
