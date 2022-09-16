@@ -39,15 +39,15 @@ Poulailler
 dialog{
   id = "save_quit",
   text = [[
-Voulez vous sauvegarder ?
 $?   Continue
 $?   Sauvegarder et quitter
 $?   Quitter sans sauvegarder
+$?   Sauvegarder et continuer
 ]],
 }
 
 dialog{
-  id = "story.main.1",
+  id = "story.main.0",
   text = [[
 Cette histoire commence par une matinée tout
 ce qu'il y a de plus normal dans le village de
@@ -55,6 +55,14 @@ Trycitown. Une jeune fille qui ne se doutait de
 rien se leva et comme à son habitude elle
 allait en direction de son poulailler. Son nom ?
  Je ne pense pas avoir besoin de le donner.
+]],
+}
+
+dialog{
+  id = "story.main.1",
+  text = [[
+Au secours !!!!!! Des loups attaquent
+mes cheves !!!!
 ]],
 }
 
@@ -120,6 +128,20 @@ Cot cotcot coôot, cooot ? cooôt côt ?
 
 (Bonjour maîtresse, comment allez vous
 aujourd'hui ? Pas trop dur le reveil ?)
+]],
+}
+
+dialog{
+  id = "tricytown.mamie",
+  text = [[
+]],
+}
+
+dialog{
+  id = "tricytown.mamie.story1",
+  text = [[
+Aide mois s'il te plaît...
+Cela se passeà l'interieur.
 ]],
 }
 

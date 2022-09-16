@@ -4884,6 +4884,21 @@ tile{
   tileset = "out/outside_main",
 }
 
+tile{
+  layer = 0,
+  x = 480,
+  y = 112,
+  properties = {
+    {
+      key = "story",
+      value = "1",
+    },
+  },
+  width = 16,
+  height = 16,
+  pattern = "6324",
+}
+
 destination{
   name = "Lpoulailler",
   layer = 0,
@@ -4922,7 +4937,7 @@ destination{
 
 enemy{
   layer = 0,
-  x = 352,
+  x = 320,
   y = 157,
   direction = 0,
   breed = "light_world/chicken",
@@ -5101,17 +5116,7 @@ teletransporter{
   y = 112,
   width = 16,
   height = 16,
-  destination_map = "Tricytown_ville",
-}
-
-npc{
-  name = "mamie_2",
-  layer = 0,
-  x = 520,
-  y = 189,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/lady_blue",
+  destination_map = "Tricytown/mamie",
 }
 
 npc{
@@ -5149,6 +5154,25 @@ npc{
   y = 285,
   direction = 3,
   subtype = 0,
+}
+
+sensor{
+  name = "story1",
+  layer = 0,
+  x = 344,
+  y = 141,
+  width = 16,
+  height = 48,
+}
+
+npc{
+  name = "mamie_2",
+  layer = 0,
+  x = 520,
+  y = 189,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/lady_blue",
 }
 
 tile{

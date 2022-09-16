@@ -9345,7 +9345,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 240,
   y = 840,
   width = 8,
   height = 8,
@@ -9363,8 +9363,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 624,
+  x = 160,
+  y = 600,
   width = 8,
   height = 8,
   pattern = "3395",
@@ -9372,8 +9372,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
-  y = 376,
+  x = 184,
+  y = 392,
   width = 8,
   height = 8,
   pattern = "3395",

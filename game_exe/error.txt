@@ -1,0 +1,1 @@
+[Solarus] [0] Fatal: Cannot load image 'sprites/menus/solarus_logo/solarus_logo.png'
